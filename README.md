@@ -11,10 +11,12 @@ It is supposed to aid storytellers and players by allowing them to quickly set u
 
 If you want to learn more about how to use the app as a player, [JayBotC](https://www.youtube.com/channel/UCNZy-4Rp877XtTHaIZdWYFQ) kindly created two tutorial videos.
 
-### How to host a game
+## How to host a game
+
 [![How to host a game](https://img.youtube.com/vi/lVRJPBXfqxg/0.jpg)](https://www.youtube.com/watch?v=lVRJPBXfqxg)
 
-### How to play a game
+## How to play a game
+
 [![How to play a game](https://img.youtube.com/vi/VCpFnJFiCbk/0.jpg)](https://www.youtube.com/watch?v=VCpFnJFiCbk)
 
 ## Features
@@ -86,20 +88,20 @@ For base game characters, it is sufficient to only provide the ID, similar to wh
 
 **Required properties:** `id`, `name`, `team`, `ability`
 
-- **id**: the internal ID for this character, without spaces or special characters<br>
+- **id**: the internal ID for this character, without spaces or special characters  
   _Note_: this ID needs to be unique and can't be the same as any ID already used by an existing character, otherwise the custom character will be overwritten with the existing role!
-- **image**: a URL to a PNG of the character token icon (should have a transparent background!)<br>
+- **image**: a URL to a PNG of the character token icon (should have a transparent background!)  
   _Note_: custom images will only be visible after enabling them in the Grimoire menu!
 - **edition**: the ID of the edition for this character. can be left blank or "custom"
 - **firstNight** / **otherNight**: the position that this character acts on the first / other nights, compared to all
-  other characters<br>
+  other characters  
   _Note_: must be a positive number or zero, with zero being treated as "does not act during the night"
 - **firstNightReminder** / **otherNightReminder**: reminder text for first / other nights
 - **reminders**: reminder tokens, should be an empty array `[]` if none
 - **remindersGlobal**: global reminder tokens that will always be available, no matter if the character is assigned to a player or not
 - **setup**: whether this token affects setup (orange leaf), like the Drunk or Baron
 - **name**: the displayed name of this character
-- **team**: the team of the character, has to be one of `townsfolk`, `outsider`, `minion`, `demon`, `traveler` or `fabled`<br>
+- **team**: the team of the character, has to be one of `townsfolk`, `outsider`, `minion`, `demon`, `traveler` or `fabled`  
   _Note_: if you create a custom Fabled character, it will be automatically added to the game when the custom script is loaded
 - **ability**: the displayed ability text of the character
 
@@ -109,16 +111,17 @@ For base game characters, it is sufficient to only provide the ID, similar to wh
 
 ## Acknowledgements and Copyrights
 
-* [Blood on the Clocktower](https://bloodontheclocktower.com/) is a trademark of Steven Medway and [The Pandemonium Institute](https://www.thepandemoniuminstitute.com/)
-* Night reminders and other auxiliary text written by [Ben Finney](http://bignose.whitetree.org/projects/botc/diy/)
-* Iconography by [Font Awesome](https://fontawesome.com/)
-* Background image copyright and permission granted by [Ryan Maloney](https://www.artstation.com/maloney94)
-* Webfonts by [Google Fonts](https://fonts.google.com/) and [Online Web Fonts](https://www.onlinewebfonts.com/)
-* All other images and icons are copyright to their respective owners
+- [Blood on the Clocktower](https://bloodontheclocktower.com/) is a trademark of Steven Medway and [The Pandemonium Institute](https://www.thepandemoniuminstitute.com/)
+- Night reminders and other auxiliary text written by [Ben Finney](http://bignose.whitetree.org/projects/botc/diy/)
+- Iconography by [Font Awesome](https://fontawesome.com/)
+- Background image copyright and permission granted by [Ryan Maloney](https://www.artstation.com/maloney94)
+- Webfonts by [Google Fonts](https://fonts.google.com/) and [Online Web Fonts](https://www.onlinewebfonts.com/)
+- All other images and icons are copyright to their respective owners
 
 This project and its website are provided free of charge and not affiliated with The Pandemonium Institute in any way.
 
 ## Donations
+
 This project will always be available free of charge, since I love building cool things and playing Blood on the Clocktower. If you still want to support me with a donation, you can do that here:
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/bra1n)
